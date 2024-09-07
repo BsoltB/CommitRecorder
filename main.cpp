@@ -10,7 +10,7 @@
 #include <set>
 
 using namespace std;
-string wpath,usrname;
+string wpath,usrname,cmkd;
 vector<string> fls;
 map<string, long long> hsmap;
 const string WPCONF = "wpath.txt",HSCONF = "hash.txt",USRCONF = "username.txt",CRASHINFO = "Please Input Watching Path:";
@@ -182,17 +182,25 @@ void addCommiter(vector<string> chg) {
         }
         ofstream ofs;
         ofs.open(ph,ios::trunc);
-        string to_output;
+        ofstream ofs2;
+        ofs2.open(cmkd,ios::trunc);
+        string to_output,md="# 贡献者列表\n这里是贡献者列表，由CommitRecorder生成\n";
         for(auto iter = t.begin(); iter != t.end(); ++iter) {
-            to_output += iter->first + ":";
+            string fr = iter->first;
+            to_output += fr + ":";
+            md += "## " + fr + "\n";
             set<string> r = iter->second;
             for(auto iter2 = r.begin(); iter2 != r.end(); ++iter2) {
                 to_output += *iter2 + "|";
+                md += "- " + *iter2 + "\n";
             }
             to_output += "\n";
+            md += "\n";
         }
         ofs << to_output;
+        ofs2 << md;
         ofs.close();
+        ofs2.close();
     }
 }
 void getHSMap() {
@@ -219,7 +227,7 @@ void getHSMap() {
             cout << chg[i] << endl;
         }
         addCommiter(chg);
-        saveHSMapToFile(hsmap2);
+        saveHSMapToFile(calcHSMap());
     }
 }
 int getAbsoluteFiles(string directory, vector<string> &filesAbsolutePath) //参数1[in]要变量的目录  参数2[out]存储文件名
@@ -270,10 +278,17 @@ int main() {
     cout << "Welcome to use CommitRecord!" << endl;
     wpath = getWatchingPath();
     usrname = getUsrName();
+    cmkd = wpath + "/commiter_record.md";
     cout << "WPath is " << wpath << endl;
     cout << "And Username is " << usrname << endl;
     cout << "Getting Files..." << endl;
     getAbsoluteFiles(wpath, fls);
+    for(auto iter = fls.begin();iter != fls.end();++iter) {
+        if((*iter) == cmkd) {
+            fls.erase(iter);
+            break;
+        }
+    }
     cout << "done." << endl;
     getHSMap();
     return 0;

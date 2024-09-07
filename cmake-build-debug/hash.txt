@@ -1,6 +1,6 @@
 120
 /home/solt/jphwiki/j-physics-wiki/docs/physical-quantities/temperature.mdn
--5297599886973906166s
+-5591846189607243974s
 /home/solt/jphwiki/j-physics-wiki/docs/physical-quantities/intro.mdn
 8564425040389208749s
 /home/solt/jphwiki/j-physics-wiki/docs/physical-quantities/length.mdn
@@ -25,6 +25,12 @@
 -6240649168469962347s
 /home/solt/jphwiki/j-physics-wiki/docs/assets/exam/fsa/2_2.pngn
 5274145413775168251s
+/home/solt/jphwiki/j-physics-wiki/docs/assets/measuring-instrument/thermometer/Galileo2.pngn
+2085035096490618716s
+/home/solt/jphwiki/j-physics-wiki/docs/assets/measuring-instrument/thermometer/Galileo1.jpgn
+5545430484657630175s
+/home/solt/jphwiki/j-physics-wiki/docs/assets/measuring-instrument/thermometer/error.pngn
+5248256886074632246s
 /home/solt/jphwiki/j-physics-wiki/docs/assets/extra/div_f/3_1.pngn
 5015126432492825436s
 /home/solt/jphwiki/j-physics-wiki/docs/assets/extra/div_f/1_1.pngn
@@ -40,7 +46,7 @@
 /home/solt/jphwiki/j-physics-wiki/docs/assets/logo.pngn
 4227179167660839438s
 /home/solt/jphwiki/j-physics-wiki/docs/intro/how.mdn
-6485110897806859494s
+5511453608176082887s
 /home/solt/jphwiki/j-physics-wiki/docs/intro/administrator.mdn
 -1250353654249346302s
 /home/solt/jphwiki/j-physics-wiki/docs/intro/commiters.mdn
@@ -48,13 +54,11 @@
 /home/solt/jphwiki/j-physics-wiki/docs/intro/textbook.mdn
 6142509188972423790s
 /home/solt/jphwiki/j-physics-wiki/docs/intro/policy.mdn
--1465564479197225040s
+-5282845928514948828s
 /home/solt/jphwiki/j-physics-wiki/docs/intro/format.mdn
 3781689388063523120s
 /home/solt/jphwiki/j-physics-wiki/docs/intro/contact.mdn
 7096125215274493920s
-/home/solt/jphwiki/j-physics-wiki/docs/abcd.txtn
-905478748653104350s
 /home/solt/jphwiki/j-physics-wiki/docs/exam/fcu.mdn
 5292149844298909275s
 /home/solt/jphwiki/j-physics-wiki/docs/exam/for_zk.mdn
@@ -72,9 +76,9 @@
 /home/solt/jphwiki/j-physics-wiki/docs/measuring-instrument/abstract.mdn
 -6452701582907493812s
 /home/solt/jphwiki/j-physics-wiki/docs/measuring-instrument/thermometer.mdn
--5843229509433134220s
+-3326172974213634887s
 /home/solt/jphwiki/j-physics-wiki/docs/measuring-instrument/sft.mdn
-4272644299103558164s
+4891947554562444711s
 /home/solt/jphwiki/j-physics-wiki/docs/measuring-instrument/conception/zeroing.mdn
 5971581864805250754s
 /home/solt/jphwiki/j-physics-wiki/docs/measuring-instrument/conception/estimate-observing.mdn
@@ -83,8 +87,6 @@
 -447522323038064456s
 /home/solt/jphwiki/j-physics-wiki/docs/measuring-instrument/ruler.mdn
 5266979150944381272s
-/home/solt/jphwiki/j-physics-wiki/docs/hijk.txtn
--6913303791476722520s
 /home/solt/jphwiki/j-physics-wiki/docs/extra/intro.mdn
 3944418354303175723s
 /home/solt/jphwiki/j-physics-wiki/docs/extra/div_force.mdn
@@ -115,7 +117,5 @@
 6200264582430861887s
 /home/solt/jphwiki/j-physics-wiki/docs/javascripts/mathjax.jsn
 4873375681518731830s
-/home/solt/jphwiki/j-physics-wiki/docs/defg.txtn
--3075947366462368748s
 /home/solt/jphwiki/j-physics-wiki/docs/index.mdn
 6127954197444371384s
