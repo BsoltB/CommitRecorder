@@ -1,0 +1,3 @@
+/home/solt/commitrecord/cmake-build-debug/CMakeFiles/commitrecord.dir
+/home/solt/commitrecord/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/solt/commitrecord/cmake-build-debug/CMakeFiles/rebuild_cache.dir
